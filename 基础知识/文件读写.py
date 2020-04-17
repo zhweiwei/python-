@@ -16,7 +16,7 @@
 # print(p)
 # f.close()
 
-f = open("1.txt","w+")
+f = open("../1.txt", "w+")
 f.write("hello")
 f.flush()
 f.seek(0,0)
